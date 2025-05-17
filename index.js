@@ -34,8 +34,8 @@ function init() {
   function generatePassword() {
     // declare variables here because values can change
     const lengthInput = document.querySelector('#length');
-    const upperCaseInput = document.querySelector('#upperCase');
-    const lowerCaseInput = document.querySelector('#lowerCase');
+    const upperCaseInput = document.querySelector('#uppercase');
+    const lowerCaseInput = document.querySelector('#lowercase');
     const numbersInput = document.querySelector('#numbers');
     const specialCharsInput = document.querySelector('#symbols');
 
